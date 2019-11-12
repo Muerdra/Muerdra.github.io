@@ -18,9 +18,10 @@
           <li><a href="contact.html"> CONTACT </a></li>
 
 	</ul>
-		
+
+<!--https://stackoverflow.com/questions/38781349/how-to-make-onclick-event-to-work-only-once -->
 <p>Click the button to create an IMG element.</p>
-<button onclick="myFunction()">Try it</button>
+<button onclick="myFunction();this.onclick=null;">Try it</button>
 
 <script>
 function myFunction() {
