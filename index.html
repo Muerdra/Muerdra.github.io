@@ -16,13 +16,19 @@
 
 	</ul>
 		
-<button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()">
-Click me to display Date and Time.</button>
+<p>Click the button to create an IMG element.</p>
+<button onclick="myFunction()">Try it</button>
 
-<p id="demo"></p>
-
-<img src ="Pictures/Mort.jpg" alt="Morty" </img>
+<script>
+function myFunction() {
+  var x = document.createElement("IMG");
+  x.setAttribute("src", "Pictures/Mort.jpg");
+  x.setAttribute("width", "304");
+  x.setAttribute("height", "228");
+  x.setAttribute("alt", "Morty");
+  document.body.appendChild(x);
+}
+</script>
 		
 </body> 
 </html>
