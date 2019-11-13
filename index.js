@@ -1,5 +1,4 @@
 
-<script>
 function myFunction() {
   var x = document.createElement("IMG");
   x.setAttribute("src", "Pictures/Mort.jpg");
@@ -8,4 +7,3 @@ function myFunction() {
   x.setAttribute("alt", "Morty");
   document.body.appendChild(x);
 }
-</script>
