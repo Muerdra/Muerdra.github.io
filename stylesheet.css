@@ -77,8 +77,8 @@ li a:hover {
   text-align: center;
 }
 
-/* Style each tab content individually */ 
-#London {background-color:red;}
+/* Style for each tab background colour content individually */ 
+#London {background-color:#36a899;}
 #Paris {background-color:green;}
 #Tokyo {background-color:blue;}
 #Oslo {background-color:orange;}
