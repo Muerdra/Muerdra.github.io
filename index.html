@@ -25,16 +25,16 @@
 	</ul>
 
 <!--https://stackoverflow.com/questions/38781349/how-to-make-onclick-event-to-work-only-once -->
-<p>Click the button to create an IMG element.</p>
+<p>Click the button for picture of "" island.</p>
 <button onclick="myFunction();this.onclick=null;">Try it</button>
 
 <script>
 function myFunction() {
   var x = document.createElement("IMG");
-  x.setAttribute("src", "Pictures/Mort.jpg");
+  x.setAttribute("src", "Pictures/island.jpg");
   x.setAttribute("width", "304");
   x.setAttribute("height", "228");
-  x.setAttribute("alt", "Morty");
+  x.setAttribute("alt", "");
   document.body.appendChild(x);
 }
 </script>
