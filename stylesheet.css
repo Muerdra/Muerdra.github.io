@@ -91,7 +91,7 @@ li a:hover {
 
 
 /*  Contact Us styling starts from here */
-
+/* source: https://www.w3schools.com/css/css_form.asp */
 
 body{
 	margin:0;
@@ -100,7 +100,7 @@ body{
 	background-size: cover;
 }
 .contact-form{
-	width 100%;
+	width: 100%;
 	max-width: 650px;
 	background: #f1f1f1;
 	position: absolute;
