@@ -85,6 +85,11 @@ li a:hover {
 
 
 
+
+
+
+
+
 /*  Contact Us styling starts from here */
 
 
@@ -96,7 +101,7 @@ body{
 }
 .contact-form{
 	width 85%;
-	max-width: 1000px;
+	max-width: 650px;
 	background: #f1f1f1;
 	position: absolute;
 	top:20%;
@@ -115,7 +120,7 @@ body{
 	font-weight: 200;	
 }
 .textb{
-	borer: 1px;
+	borer: 1px solid gray;
 	margin: 8px 0;
 	padding: 12px 18px;
 	border-radius: 8px;
@@ -127,7 +132,15 @@ body{
 	text-transform: uppercase;
 	font-size: 14px;
 }
-.textb input, .textb textarea{
+.textb input{
+	width: 100%;
+	border:none;
+	background:none;
+	outline:none;
+	font-size: 18px;
+	margin-top: 6px;
+}
+.textb textarea{
 	width: 100%;
 	border:none;
 	background:none;
