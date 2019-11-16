@@ -100,16 +100,16 @@ body{
 	background-size: cover;
 }
 .contact-form{
-	width: 100%;
-	max-width: 650px;
+	width: 85%;
+	max-width: 600px;
 	background: #f1f1f1;
 	position: absolute;
-	top:10%;
-	left:10%;
+	top:40%;
+	left:40%;
 	transform: translate(-50%,  50%);
-	padding: 20px 40px;
+	padding: 30px 40px;
 	box-sizing: border-box;
-	border-radius: 16px;
+	border-radius: 8px;
 	text-align: center;
 	box-shadow: 0 0 20px #000000b3;
 	font-family: arial, sans-serif, helvetica, Times;
