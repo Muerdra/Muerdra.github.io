@@ -92,12 +92,16 @@ li a:hover {
 
 /*  Contact Us styling starts from here */
 /* source: https://www.w3schools.com/css/css_form.asp */
-
+/* Adding background image */
 body{
 	margin:10px;
 	padding: 0;
+	background: url(Pictures/madagascar.jpg);
+	background-repeat: no-repeat;
+ 	background-attachment: fixed;  
 	background-size: cover;
 }
+/*Styles for contact-form */
 .contact-form{
 	width: 85%;
 	max-width: 600px;
