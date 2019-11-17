@@ -5,19 +5,46 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta charset="UTF-8">   <!--enocoding fix, referenced from https://stackoverflow.com/questions/17935819/why-is-this-html5-document-invalid-->
 <link rel="stylesheet" href="stylesheet.css">
-	<body>
+<body>
 	<ul>			<!--navigation bar-->
-																	
-		<li><a href="index.html"> HOME </a></li>			<!--used https://www.w3schools.com/css/css_navbar.asp as a template-->
+																	<li><a href="index.html"> HOME </a></li>			<!--used https://www.w3schools.com/css/css_navbar.asp as a template-->
 		<li><a href="lemurs.html"> LEMURS </a></li>
 		<li><a href="bats.html"> BATS </a></li>
-    <li><a href="birds.html"> BIRDS </a></li>
-    <li><a href="lizards.html"> LIZARDS </a></li>
-     <li><a class="active" href="insects.html"> INSECTS </a></li>
-     <li><a href="phoenix.html"> PHOENIX </a></li>
-     <li><a href="contact.html"> CONTACT </a></li>
+   		<li><a href="birds.html"> BIRDS </a></li>
+    		<li><a href="lizards.html"> LIZARDS </a></li>
+     		<li><a class="active" href="insects.html"> INSECTS </a></li>
+     		<li><a href="phoenix.html"> PHOENIX </a></li>
+     		<li><a href="contact.html"> CONTACT </a></li>
 
 	</ul>
+	<button class="tablink" onclick="openCity('London', this, '#36a899')" id="defaultOpen">London</button>
+	<button class="tablink" onclick="openCity('Paris', this, 'green')">Paris</button>
+	<button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Tokyo</button>
+	<button class="tablink" onclick="openCity('Oslo', this, 'orange')">Oslo</button>
+
+	<div id="London" class="tabcontent">
+ 		<h1>Liquidias Fenilox</h1>
+		<img src ="Pictures/Brown Widow.png" alt ="Spidew" </>
+  		<p>Liquidias Fenilox or Aqua Phoenix as it's more commonly referred to by the locals</p>
+	</div>
+
+	<div id="Paris" class="tabcontent">
+  		<h1>Paris</h1>
+  		<p>Paris is the capital of France.</p> 
+	</div>
+
+	<div id="Tokyo" class="tabcontent">
+  		<h1>Tokyo</h1>
+  		<p>Tokyo is the capital of Japan.</p>
+	</div>
+
+	<div id="Oslo" class="tabcontent">
+  		<h1>Oslo</h1>
+  		<p>Oslo is the capital of Norway.</p>
+	</div>
+
+		
+	
 
 
 </body> 
