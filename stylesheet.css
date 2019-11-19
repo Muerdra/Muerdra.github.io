@@ -39,17 +39,26 @@ li a:hover {
 }
 
 
+.aboutus{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	font-family: Arial;
+	text-align: left;
+	color:black;
+	font-weight: bold;
 
+}
 
-
-
-
-
-
-
-
-
-
+.intro{
+	list-style-type: none;
+	margin: 0;
+	width:600px;
+	background-color:gray; 
+	font-family: Arial;
+	text-align: left;
+	color:black;
+}
 
 
 .tablink {
