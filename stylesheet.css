@@ -111,7 +111,7 @@ li a:hover {					/*Rebecca Sherwin*/
 
 
 
-/*  Contact Us styling starts from here */
+/*  Contact Us styling starts from here */			/* Sharad Mainaly */
 /* source: https://www.w3schools.com/css/css_form.asp */
 /* Adding background image */
 
@@ -122,7 +122,7 @@ li a:hover {					/*Rebecca Sherwin*/
  	background-attachment: fixed;  
 	background-size: cover;
 }
-/*Styles for contact-form */
+/*Styles for contact-form */					/* Sharad Mainaly */
 .contact-form{
 	width: 85%;
 	max-width: 600px;
@@ -138,7 +138,7 @@ li a:hover {					/*Rebecca Sherwin*/
 	font-family: arial, sans-serif, helvetica, Times;
 }
 
-.contact-form h1{
+.contact-form h1{						/* Sharad Mainaly */
 	margin-top: 0;
 	font-weight: 200;	
 }
@@ -163,7 +163,7 @@ li a:hover {					/*Rebecca Sherwin*/
 	font-size: 18px;
 	margin-top: 6px;
 }
-.btn{
+.btn{							/* Sharad Mainaly */					
 	display: inline-block;
 	background: #9b59b6;
 	padding: 14px 0;
