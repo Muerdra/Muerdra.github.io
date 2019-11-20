@@ -3,7 +3,7 @@
  			x.setAttribute("src", "Pictures/maptest.jpg");
   			x.setAttribute("width", "304");
   			x.setAttribute("height", "228");
-  			x.setAttribute("alt", "");
+  			x.setAttribute("alt", "	SHOW ME PIC");
   			document.body.appendChild(x);
 		}
 
