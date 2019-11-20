@@ -6,3 +6,9 @@
   			x.setAttribute("alt", "");
   			document.body.appendChild(x);
 		}
+
+<button onclick="document.getElementById('wonderland').src='Pictures/land_of_wonder'">Explore</button>
+
+<img id="wonderland" src="Pictures/land_of_wonder" style="width:500px">
+
+<button onclick="document.getElementById('myImage').src='Pictures/land_of_wonder'">Contact</button>
