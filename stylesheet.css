@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* Style the tab buttons */
 
-ul {
+ul {						<!-- Rebecca Sherwin-->	
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -13,13 +13,13 @@ ul {
 	font-weight: bold;
 }
 
-li {
+li {						<!-- Rebecca Sherwin-->	
 	float:left;
 	color:black;
 	position: relative;
 }
 
-li a {
+li a {						<!-- Rebecca Sherwin-->	
 	display:block;
 	color:black;
 	text-align: center;
@@ -28,18 +28,18 @@ li a {
 }
 
 
-li a:hover {
+li a:hover {					<!-- Rebecca Sherwin-->	
 	background-color:#C4E2F6;  
 	color:#911F07;
 	font-weight:900;
 }
 
-.active{
+.active{					<!-- Rebecca Sherwin-->	
 	background-color:#D1C1B5;
 }
 
 
-.aboutus{
+.aboutus{					<!-- Rebecca Sherwin-->	
 	list-style-type: none;
 	margin: 0;
 	padding:0;
@@ -50,7 +50,7 @@ li a:hover {
 
 }
 
-.intro{
+.intro{						<!-- Rebecca Sherwin-->	
 	list-style-type: none;
 	margin: 0;
 	width:600px;
@@ -62,7 +62,7 @@ li a:hover {
 }
 
 
-.aboutisland{
+.aboutisland{				<!-- Rebecca Sherwin-->	
 	list-style-type: none;
 	margin: 0;
 	width:600px;
