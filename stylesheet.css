@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
 
-ul {						/*Rebecca Sherwin*/	
+navbar {						/*Rebecca Sherwin*/	
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow:hidden;
-	background-color:#2393DE; 
+	background-image: linear-gradient(260deg, #91b3c0 0%, #91b3c0 100%); 
 	font-family: Georgia;
 	text-align: center;
 	color:black;
@@ -14,7 +14,8 @@ ul {						/*Rebecca Sherwin*/
 }
 
 li {						/*Rebecca Sherwin*/	
-	float:left;
+	text-align: center;
+	margin: 15px auto;
 	color:black;
 	position: relative;
 }
@@ -37,6 +38,8 @@ li a:hover {					/*Rebecca Sherwin*/
 .active{					/*Rebecca Sherwin*/	
 	background-color:#D1C1B5;
 }
+
+
 
 
 .aboutus{					/*Rebecca Sherwin*/	
