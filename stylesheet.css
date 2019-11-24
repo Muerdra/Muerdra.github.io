@@ -51,6 +51,8 @@ li a:hover {					/*Rebecca Sherwin*/
 
 .navbar {						/*Rebecca Sherwin*/	
 	list-style-type: none;
+	display: flex;
+	justify-content:space-between;
 	margin: 0;
 	padding: 0;
 	overflow:hidden;
@@ -61,14 +63,6 @@ li a:hover {					/*Rebecca Sherwin*/
 	font-weight: bold;
 }
 
-.navbar-toggle {
-            position: absolute;
-            top: 10px;
-            right: 20px;
-            cursor: pointer;
-            color: rgba(255, 255, 255, 0.8);
-            font-size: 24px;
-        }
 
 li {						/*Rebecca Sherwin*/	
 	text-align: center;
