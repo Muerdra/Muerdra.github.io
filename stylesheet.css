@@ -1,11 +1,5 @@
 @charset "UTF-8";
 
-*{
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
-}
-
 
 .navbar {						/*Rebecca Sherwin*/	
 	list-style-type: none;
