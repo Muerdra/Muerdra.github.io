@@ -47,6 +47,53 @@ li a:hover {					/*Rebecca Sherwin*/
 	background-color:#D1C1B5;
 }
 
+@media screen and (min-width: 768px) {
+
+.navbar {						/*Rebecca Sherwin*/	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow:hidden;
+	background-image: linear-gradient(260deg, #91b3c0 0%, #91b3c0 100%); 
+	font-family: Georgia;
+	text-align: center;
+	color:black;
+	font-weight: bold;
+}
+
+.navbar-toggle {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            cursor: pointer;
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 24px;
+        }
+
+li {						/*Rebecca Sherwin*/	
+	text-align: center;
+	color:black;
+	position: relative;
+}
+
+li a {						/*Rebecca Sherwin*/	
+	display:block;
+	color:black;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+li a:hover {					/*Rebecca Sherwin*/	
+	background-color:#C4E2F6;  
+	color:#911F07;
+	font-weight:900;
+}
+  .navbar-toggle {
+                display: none;
+	}
+}
+
 
 .aboutus{					/*Rebecca Sherwin*/	
 	list-style-type: none;
