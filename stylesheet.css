@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 
-navbar {						/*Rebecca Sherwin*/	
+.navbar {						/*Rebecca Sherwin*/	
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -24,7 +24,6 @@ li a {						/*Rebecca Sherwin*/
 	display:block;
 	color:black;
 	text-align: center;
-	padding: 20px 30px;
 	text-decoration: none;
 }
 
