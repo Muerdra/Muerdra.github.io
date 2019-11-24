@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
 
 .navbar {						/*Rebecca Sherwin*/	
 	list-style-type: none;
@@ -11,11 +16,11 @@
 	text-align: center;
 	color:black;
 	font-weight: bold;
+	padding-bottom: 10px;
 }
 
 li {						/*Rebecca Sherwin*/	
 	text-align: center;
-	margin: 15px auto;
 	color:black;
 	position: relative;
 }
