@@ -31,13 +31,14 @@ li a {						/*Rebecca Sherwin*/
 
 li a:hover {					/*Rebecca Sherwin*/	
 	background-color:#C4E2F6;  
-	color:#911F07;
+	color:black;
 	font-weight:900;
 }
 
 
 .active{					/*Rebecca Sherwin*/	
 	background-color:#D1C1B5;
+	color: #E8E8E8;
 }
 
 @media screen and (min-width: 768px) {		/*https://itnext.io/how-to-build-a-responsive-navbar-using-flexbox-and-javascript-eb0af24f19bf used as reference*/
