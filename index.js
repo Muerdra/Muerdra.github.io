@@ -1,4 +1,4 @@
-	function indexbutton() {
+function indexbutton() {
   			var x = document.createElement("IMG");
  			x.setAttribute("src", "Pictures/maptest.jpg");
   			x.setAttribute("width", "304");
