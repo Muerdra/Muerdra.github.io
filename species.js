@@ -1,3 +1,9 @@
+//Opens the defaultOpen tab on pageload
+//https://forums.asp.net/t/2113496.aspx?how+do+I+make+a+tab+to+open+by+default+on+clicking+the+div
+window.onload = function () {
+  startTab();
+};
+
 function openCity(cityName, elmnt, color) {
   // Hide all elements with class="tabcontent" by default */
   var i, tabcontent, tablinks;
