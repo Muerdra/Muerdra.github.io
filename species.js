@@ -1,4 +1,3 @@
-<script>
 function openCity(cityName, elmnt, color) {
   // Hide all elements with class="tabcontent" by default */
   var i, tabcontent, tablinks;
@@ -22,8 +21,3 @@ function openCity(cityName, elmnt, color) {
 
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
-
-
-</script>
-//added <script> and /script> to see if this even works, Craig
-
