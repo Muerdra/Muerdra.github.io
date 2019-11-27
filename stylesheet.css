@@ -151,7 +151,7 @@ li a:hover {					/*Rebecca Sherwin*/
 
 /* Source : https://www.w3schools.com/howto/howto_js_slideshow.asp */
 
-
+/*
 #slide{
 	width:96%;
 	}
@@ -171,7 +171,7 @@ li a:hover {					/*Rebecca Sherwin*/
 
 }
 /* Next & previous buttons */
-.prev, .next {
+/*.prev, .next {
 	cursor: pointer;
 	position: absolute;
 	top: 50%;
@@ -185,6 +185,7 @@ li a:hover {					/*Rebecca Sherwin*/
 	border-radius: 0 3px 3px 0;
 }
 /* Position the "next button" to the right */
+/*
 .next {
 	right: 0;
 	border-radius: 3px 0 0 3px;
@@ -194,6 +195,7 @@ li a:hover {					/*Rebecca Sherwin*/
 	background-color: rgba(0,0,0,0.8);
 }
 /* Caption text */
+/*
 .text {
 	color: #f2f2f2;
 	font-size: 15px;
@@ -205,6 +207,7 @@ li a:hover {					/*Rebecca Sherwin*/
 }
 
 /* The dots/bullets/indicators */
+/*
 .dot {
 	cursor: pointer;
 	height: 13px;
@@ -219,6 +222,7 @@ li a:hover {					/*Rebecca Sherwin*/
 	background-color: #717171;
 }
 /* Fading animation */
+/*
 .fade {
 	-webkit-animation-name: fade;
 	-webkit-animation-duration: 2s;
@@ -236,9 +240,11 @@ li a:hover {					/*Rebecca Sherwin*/
 }
 
 /* On smaller screens, decrease text size */
+/*
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
+*/
 
 
 /*  Contact Us styling starts from here */			/* Sharad Mainaly */
