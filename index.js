@@ -9,7 +9,7 @@
 
 
 
-function myFunction()
+/* function myFunction()
 {
     if( document.getElementById("image1").src == "Pictures/Sharkorse.png" ){
         document.getElementById("image2").src = "Pictures/foxnail.jfi";
@@ -77,6 +77,6 @@ function currentSlide(index) {
     slides[index-1].style.display = "block";  
     dots[index-1].className += " active";
 }
-
+*/
 
 
