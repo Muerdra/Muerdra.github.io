@@ -20,6 +20,7 @@ function openCity(cityName, elmnt, color) {
 }
 
 // Get the element with id="defaultOpen" and click on it
+//added startTab function to defaultOpen
  function startTab() {
                 document.getElementById("defaultOpen").click();
 
