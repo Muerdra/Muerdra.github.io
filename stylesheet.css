@@ -6,7 +6,7 @@
 
 #myheader {
 
-  background-color: lightblue;
+  background-color: #00BFFF;
   color: black;
   padding: 10px;
   text-align: center;
@@ -21,12 +21,12 @@
 /* Text floating on the left size of image */
 .tryagain {
     width: 50%;
-    height: 200px;
+    height: 50px;
     float: left;
 	border: inset;
 	padding: 20px, 20px,20px,50px;
-	margin:100px;
-	background-color: lightblue;
+	margin:50px;
+	background-color: #00BFFF;
 	color: black;
 	
 }
@@ -51,7 +51,7 @@
 
 h2{
 	font-family: Arial, Helvetica, sans-serif;
-	background-color:lightblue;
+	background-color:#00BFFF;
 	font-size: 30px;
 	color:black;
 	margin: 10px;
