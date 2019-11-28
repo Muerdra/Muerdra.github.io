@@ -164,7 +164,7 @@ li a:hover {					/*Rebecca Sherwin*/
   background-color: #555;
   color: white;
   float: left;
-  border: none;
+  border: 2px;
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
