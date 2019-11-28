@@ -1,5 +1,42 @@
 @charset "UTF-8";
 
+/* Just Added ...still on progress */             /* Sharad Mainaly */
+/* secction */
+.sample{
+	font-family: Arial, Helvetica, sans-serif;
+	width:50%;
+	border:solid;
+}
+/* Text floating on the left size of image */
+.tryagain {
+    width: 15%;
+    height: 300px;
+    float: left;
+	border: inset;
+	padding: 20px, 20px,20px,50px;
+	margin:100px;
+	background-color: lightblue;
+	color: black;
+	
+}
+/* This has my header 1 */
+.name {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: 	black;
+	color: 	white;
+	margin: 0px;
+	padding: 10px,0px;
+	text-align: center;
+}
+/* My image */
+.image{
+	width:1100px;
+	height:600px;
+	padding:0px;
+	
+}
+
+
 
 .navbar {						/*Rebecca Sherwin*/	
 	list-style-type: none;
