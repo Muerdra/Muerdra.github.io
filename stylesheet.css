@@ -61,6 +61,16 @@ h2{
 	text-align: center;
 }
 
+.tryagain2 {
+    width: 50%;
+    height: 300px;
+    float: right;
+	border: none;
+	padding: 5px, 10px,20px;
+	margin:50px;
+	background-color: white;
+	color: black;
+
 .navbar {						/*Rebecca Sherwin*/	
 	list-style-type: none;
 	margin: 0;
