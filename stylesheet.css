@@ -20,8 +20,8 @@
 }
 /* Text floating on the left size of image */
 .tryagain {
-    width: 15%;
-    height: 300px;
+    width: 50%;
+    height: 2000px;
     float: left;
 	border: inset;
 	padding: 20px, 20px,20px,50px;
@@ -41,7 +41,7 @@
 }
 /* My image */
 .image{
-	width:1100px;
+	width:600px;
 	height:600px;
 	padding:0px;
 	
