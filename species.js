@@ -41,3 +41,12 @@ function indexbutton2() {
   			x.setAttribute("alt", "	SHOW ME PIC");
   			document.body.appendChild(x);
 		}
+
+//Makes buttons toggled
+function toggle_visibility() {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
