@@ -167,8 +167,8 @@ li a:hover {					/*Rebecca Sherwin*/
   border: none;
   outline: none;
   cursor: pointer;
-  /*padding: 14px 16px;*/
-  padding: none;
+  padding: 5px 7px;
+  /*padding: none;*/
   font-size: 17px;
   width: 25%;
 }
