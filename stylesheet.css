@@ -193,7 +193,8 @@ li a:hover {					/*Rebecca Sherwin*/
 /* Set default styles for tab content */	/* Craig Harding*/
 .tabcontent {
   color: white;
-  display: none;
+	/* display: none; */
+  display: fadeIn();
   padding: 50px;
   text-align: center;
 }
