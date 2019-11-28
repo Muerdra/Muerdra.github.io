@@ -23,19 +23,19 @@
 /* Text floating on the left size of image */
 .tryagain {
     width: 50%;
-    height: 1000px;
+    height: 300px;
     float: left;
 	border: inset;
 	padding: 20px, 20px,20px,20px;
 	margin:50px;
-	background-color: #00BFFF;
-	color: black;
+	background-color: black;
+	color: white;
 	
 }
 /* This has my header 1 */
 .name {
 	font-family: Arial, Helvetica, sans-serif;
-	background-color: 	black;
+	background-color: 00BFFF;
 	color: 	white;
 	margin: 0px;
 	padding: 10px,0px;
@@ -53,9 +53,9 @@
 
 h2{
 	font-family: Arial, Helvetica, sans-serif;
-	background-color:#00BFFF;
+	background-color:black;
 	font-size: 30px;
-	color:black;
+	color:white;
 	margin: 10px;
 	padding: 10px;
 	text-align: center;
@@ -194,7 +194,7 @@ li a:hover {					/*Rebecca Sherwin*/
 .tabcontent {
   color: white;
 	/* display: none; */
-  border-radius:3px;
+  display: fadeIn();
   padding: 50px;
   text-align: center;
 }
