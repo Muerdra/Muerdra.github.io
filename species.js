@@ -33,7 +33,7 @@ function openCity(cityName, elmnt, color) {
 }
 
 //TESTING
-function indexbutton() {
+function indexbutton2() {
   			var x = document.createElement("IMG");
  			  x.setAttribute("src", "Pictures/maptest.jpg");
   			x.setAttribute("width", "304");
