@@ -32,6 +32,20 @@ function openCity(cityName, elmnt, color) {
 
 }
 
+//Testing for tabs
+  $('#tabs li a').click(function(){
+  var t = $(this).attr('id');
+
+  if($(this).hasClass('inactive')){ //this is the start of our condition 
+    $('#tabs li a').addClass('inactive');           
+    $(this).removeClass('inactive');
+
+    $('.container').hide();
+    $('#'+ t + 'C').fadeIn('slow');
+ }
+});
+
+
 //TESTING
 function indexbutton2() {
   			var x = document.createElement("IMG");
