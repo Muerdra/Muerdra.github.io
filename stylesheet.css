@@ -194,7 +194,7 @@ li a:hover {					/*Rebecca Sherwin*/
 .tabcontent {
   color: white;
 	/* display: none; */
-  display: fadeIn();
+  border-radius:3px;
   padding: 50px;
   text-align: center;
 }
