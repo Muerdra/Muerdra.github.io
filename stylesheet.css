@@ -8,7 +8,7 @@
 
   background-color: lightblue;
   color: black;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   border-style:inset;
 } 
@@ -21,7 +21,7 @@
 /* Text floating on the left size of image */
 .tryagain {
     width: 50%;
-    height: 2000px;
+    height: 200px;
     float: left;
 	border: inset;
 	padding: 20px, 20px,20px,50px;
@@ -47,7 +47,17 @@
 	
 }
 
+/*This is my heading 2 */
 
+h2{
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:lightblue;
+	font-size: 30px;
+	color:black;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+}
 
 .navbar {						/*Rebecca Sherwin*/	
 	list-style-type: none;
