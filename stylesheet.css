@@ -1,6 +1,17 @@
 @charset "UTF-8";
 
 /* Just Added ...still on progress */             /* Sharad Mainaly */
+
+/*This is my main header */
+
+#myheader {
+
+  background-color: lightblue;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  border-style:inset;
+} 
 /* secction */
 .sample{
 	font-family: Arial, Helvetica, sans-serif;
