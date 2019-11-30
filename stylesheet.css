@@ -366,10 +366,11 @@ body {
 }
 
 #contact h3 {
-	color: #F96;
+	color: black;
 	display: block;
 	font-size: 30px;
 	font-weight: 400;
+	font-family: Tahoma;
 }
 
 #contact h4 {
