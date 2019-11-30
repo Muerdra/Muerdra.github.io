@@ -5,11 +5,11 @@
 	
 }
 	
-/* Just Added ...still on progress */             /* Sharad Mainaly */
+/* Just Added ...still on progress */           		  /* Sharad Mainaly */
 
 /*This is my main header */
 
-#myheader {
+#myheader {							/* Sharad Mainaly */
 
   background-color: orange;
   color: black;
@@ -19,7 +19,7 @@
   margin-top:0px;
 
 } 
-/* Text floating on the left size of image */
+/* Text floating on the left size of image */  			/*Sharad Mainaly */
 .tryagain {
     width: 100%;
     height: 300px;
@@ -32,7 +32,7 @@
 }
 
 /* Source: https://alistapart.com/article/css-shapes-101/ */
-/*This is my heading 2 */
+/*This is my heading 2 */					/* Sharad Mainaly */
 .tryagain2 {
     	width: 50%;
     	height: 300px;
@@ -47,7 +47,7 @@
 	
 }
 
-h2{
+h2{								/*Sharad Mainaly */
 	font-family: Arial, Helvetica, sans-serif;
 	background-color:black;
 	font-size: 30px;
@@ -58,7 +58,7 @@ h2{
 }
 
 
-h3{
+h3{								/* Sharad mainaly */
 	font-family: Arial, Helvetica, sans-serif;
 	background-color:black;
 	font-size: 30px;
@@ -69,14 +69,21 @@ h3{
 }
 
 /* My image */
-img{
+img{								/* Rebecca Sherwin/ Sharad Mainaly */
 	width:400px;
 	height:300px;
 	margin-right: 10px;
 	float:left;
-	
-	
-	
+}
+.island{							/*Sharad Mainaly*/	
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+	background-color:#D6D1CF; 
+	font-family: Arial;
+	text-align: left;
+	color:black;
+	font-weighht:bold;	
 }
 .navbar {						/*Rebecca Sherwin*/	
 	list-style-type: none;
@@ -166,20 +173,6 @@ li a:hover {					/*Rebecca Sherwin*/
 	text-align: left;
 	color:black;
 }
-
-
-.aboutus{				/*Rebecca Sherwin*/	
-	list-style-type: none;
-	margin: 0;
-	padding: 10px;
-	background-color:#D6D1CF; 
-	font-family: Arial;
-	text-align: left;
-	color:black;
-	font-wright:bold;			/*Rebecca Sherwin*/	
-	
-	
-} 
 
 
 .tablink {				/* Craig Harding*/
