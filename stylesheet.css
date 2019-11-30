@@ -26,6 +26,7 @@
    position: relative; 
    width: 1200px;
    height: 500px;
+   display:block;
    margin-left: Auto;
 }
 h2 { 								/*Sharad Mainaly */
@@ -51,7 +52,7 @@ h2 span.spacer {
 .tryagain {
      font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
      font-weight: normal;
-     font-size: 1.75em;
+     font-size: 1.95em;
      letter-spacing: .2em;
      line-height: 1.1em;
      margin:0px;
