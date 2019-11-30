@@ -85,7 +85,7 @@ h2 span.spacer {
 
 h3 {								/* Sharad mainaly */
 	font-family: Arial, Helvetica, sans-serif;
-	background-color:black;
+	background: rgb(0, 0, 0);
 	font-size: 30px;
 	color:white;
 	margin: 10px;
@@ -125,7 +125,7 @@ h4 {								/* Sharad mainaly */
 	text-align: center;
 	font-weight:bold;
 	padding: 10px;
-	background-color:#F0F8FF;
+	background: rgb(0, 0, 0);
 	
 }
 
