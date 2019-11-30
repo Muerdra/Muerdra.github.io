@@ -42,7 +42,7 @@
 	margin:10px;
 	background-color: white;
 	color: black;
-	shape-outside: inset(0px round 100px) border-box;
+
 
 	
 }
@@ -74,7 +74,7 @@ img{
 	height:300px;
 	padding:0px;
 	float:left;
-	shape-outside: inset(5px round 100px) border-box;
+	shape-outside: inset(0px round 100px) border-box;
 	
 	
 }
