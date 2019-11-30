@@ -24,11 +24,9 @@
 
 .image1 { 							/*Sharad Mainaly */
    position: relative; 
-   width: 1200px;
+   width: 1800px;
    height: 500px;
-   margin-left: auto;
-   margin-right: auto;
-   display: block;
+  
 }
 h2 { 								/*Sharad Mainaly */
    position: absolute; 
