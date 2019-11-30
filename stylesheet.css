@@ -361,8 +361,8 @@ body {
 	background:#c7dff5;
 	padding:25px;
 	margin:50px 0;
-	border: 2px solid black;
-  	border-radius: 3px;
+	border: 1px solid gray;
+  	border-radius: 5px;
 }
 
 #contact h3 {
@@ -386,7 +386,7 @@ fieldset {
 	width: 100%;
 }
 
-#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+#contact input[type="text"], #contact input[type="email"], #contact textarea {
 	width:100%;
 	border:1px solid #CCC;
 	background:#FFF;
@@ -404,7 +404,7 @@ fieldset {
 	cursor:pointer;
 	width:100%;
 	border:none;
-	background:#F7D5D6;
+	background:#fceeee;
 	color:#FFF;
 	margin:0 0 5px;
 	padding:10px;
