@@ -76,7 +76,7 @@ img{								/* Rebecca Sherwin/ Sharad Mainaly */
 	float:left;
 }
 	
-/*h4{								/* Sharad mainaly */
+/*h4{	*/							/* Sharad mainaly */
 	/*font-family: Arial, Helvetica, sans-serif;
 	background-color:white;
 	font-size: 30px;
@@ -86,7 +86,7 @@ img{								/* Rebecca Sherwin/ Sharad Mainaly */
 	text-align: center; /*
 }
 
-.island{							/*Sharad Mainaly*/	
+/*.island{	*/						/*Sharad Mainaly*/	
 	/*font-family: Arial, Helvetica, sans-serif;
 	padding: 10px;
 	background-color:white;
@@ -175,16 +175,6 @@ li a:hover {					/*Rebecca Sherwin*/
 }
 
 
-
-.intro{						/*Rebecca Sherwin*/	
-	list-style-type: none; 
-	margin: 0;
-	padding: 10px;
-	background-color:#D6D1CF; 
-	font-family: Arial;
-	text-align: left;
-	color:black;
-}
 
 
 .tablink {				/* Craig Harding*/
