@@ -155,7 +155,7 @@ li a:hover {					/*Rebecca Sherwin*/
 }
 }
 
-
+/*
 .aboutus{					/*Rebecca Sherwin*/	
 	list-style-type: none;
 	margin: 0;
@@ -165,10 +165,13 @@ li a:hover {					/*Rebecca Sherwin*/
 	color:black;
 	font-weight: bold;
 
-}
+} 
+
+
+*/ 
 
 .intro{						/*Rebecca Sherwin*/	
-	list-style-type: none;
+	list-style-type: none; 
 	margin: 0;
 	padding: 10px;
 	background-color:#D6D1CF; 
