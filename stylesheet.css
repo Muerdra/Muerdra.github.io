@@ -25,6 +25,13 @@
    height: auto;
 }
 
+.toha { 							/*Sharad Mainaly */
+   position: relative; 
+   max-width: 100%;
+   height: auto;
+   width; 1024px;
+   height; 400px;
+}
 h2 { 								/*Sharad Mainaly */
    position: absolute; 
    top: 200px; 
