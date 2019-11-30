@@ -325,18 +325,9 @@ li a:hover {					/*Rebecca Sherwin*/
 */
 
 
-* {
-	margin:0;
-	padding:0;
-	box-sizing:border-box;
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	-webkit-font-smoothing:antialiased;
-	-moz-font-smoothing:antialiased;
-	-o-font-smoothing:antialiased;
-	font-smoothing:antialiased;
-	text-rendering:optimizeLegibility;
-}
+					/*https://codepen.io/ssbalakumar/pen/uzDIA used as a template*/
+			/*Rebecca Sherwin*/
+	
 
 body {
 	font-family:Arial;
@@ -348,6 +339,9 @@ body {
 }
 
 .container {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
 	max-width:400px;
 	width:100%;
 	margin:0 auto;
