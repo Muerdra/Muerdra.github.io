@@ -47,7 +47,7 @@
 	
 }
 
-h2{								/*Sharad Mainaly */
+h2 {								/*Sharad Mainaly */
 	font-family: Arial, Helvetica, sans-serif;
 	background-color:black;
 	font-size: 30px;
@@ -58,7 +58,7 @@ h2{								/*Sharad Mainaly */
 }
 
 
-h3{								/* Sharad mainaly */
+h3 {								/* Sharad mainaly */
 	font-family: Arial, Helvetica, sans-serif;
 	background-color:black;
 	font-size: 30px;
@@ -76,17 +76,7 @@ img{								/* Rebecca Sherwin/ Sharad Mainaly */
 	float:left;
 }
 	
-h4{								/* Sharad mainaly */
-	font-family: Arial, Helvetica, sans-serif;
-	background-color:white;
-	font-size: 30px;
-	color:black;
-	margin: 10px;
-	padding: 10px;
-	text-align: center; /*
-}
-
-.island{							/*Sharad Mainaly*/	
+.island {							/*Sharad Mainaly*/	
 	font-family: Arial, Helvetica, sans-serif;
 	padding: 10px;
 	background-color:white;
@@ -94,6 +84,16 @@ h4{								/* Sharad mainaly */
 	float:left;
 	color:black;
 	font-weight:bold;	
+}
+
+h4 {								/* Sharad mainaly */
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:white;
+	font-size: 30px;
+	color:black;
+	margin: 10px;
+	padding: 10px;
+	text-align: center; /*
 }
 
 
