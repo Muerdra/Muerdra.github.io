@@ -22,13 +22,14 @@
 .firstimage { 							/*Sharad Mainaly */
    position: relative; 
    max-width: 100%;
+   width: 1024px;
+   height: 400px;
 }
 
 img { 							/*Sharad Mainaly */
    position: relative; 
    max-width: 100%;
-   width: 1024px;
-   height: 400px;
+  
 }
 h2 { 								/*Sharad Mainaly */
    position: absolute; 
