@@ -75,6 +75,17 @@ img{								/* Rebecca Sherwin/ Sharad Mainaly */
 	margin-right: 10px;
 	float:left;
 }
+	
+h4{								/* Sharad mainaly */
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:black;
+	font-size: 30px;
+	color:white;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+}
+
 .island{							/*Sharad Mainaly*/	
 	font-family: Arial, Helvetica, sans-serif;
 	padding: 10px;
