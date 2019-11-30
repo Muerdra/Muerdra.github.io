@@ -353,10 +353,7 @@ li a:hover {					/*Rebecca Sherwin*/
 	font-size: 12px;
 	line-height:30px;
 	color:#777;
-	background:whitesmoke; 
-} 
-
-.container {			/*Rebecca Sherwin*/
+	background:whitesmoke; 			
 	margin:0;
 	padding:0;
 	box-sizing:border-box;
