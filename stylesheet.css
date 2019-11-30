@@ -51,6 +51,7 @@ img{
 	width:400px;
 	height:300px;
 	padding:0px;
+	float:left;
 	shape-outside: inset(0px round 100px) border-box;
 	
 }
