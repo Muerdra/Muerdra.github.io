@@ -51,6 +51,7 @@ img{
 	width:400px;
 	height:300px;
 	padding:0px;
+	shape-outside: inset(0px round 100px) border-box;
 	
 }
 
@@ -75,7 +76,7 @@ h2{
 	margin:10px;
 	background-color: white;
 	color: black;
-	shape-outside: inset(0px round 100px) border-box;
+	
 }
 
 .navbar {						/*Rebecca Sherwin*/	
