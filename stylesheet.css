@@ -42,6 +42,7 @@
 	margin:10px;
 	background-color: white;
 	color: black;
+	text-align:justify;
 	shape-outside: inset(5px round 100px) border-box;
 
 	
@@ -83,6 +84,7 @@ img{								/* Rebecca Sherwin/ Sharad Mainaly */
 	float:left;
 	color:black;
 	width:45%;
+	text-align:justify;
 }
 	
 
