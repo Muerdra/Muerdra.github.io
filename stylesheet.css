@@ -19,11 +19,8 @@
   margin-top:0px;
 }
 /* Source: https://css-tricks.com/text-blocks-over-image/ */
-.firstimage { 							/*Sharad Mainaly */
-   position: relative; 
-   max-width: 100%;
-   
-}
+
+  
 
 .image1 { 							/*Sharad Mainaly */
    position: relative; 
@@ -37,7 +34,7 @@ h2 { 								/*Sharad Mainaly */
    position: absolute; 
    top: 200px; 
    left: 0; 
-   width: 100%; 
+   width: 50%; 
 }
 h2 span { 
    color: white; 
