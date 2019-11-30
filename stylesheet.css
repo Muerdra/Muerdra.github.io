@@ -92,17 +92,19 @@ img{								/* Rebecca Sherwin/ Sharad Mainaly */
 	text-align: left;
 	float:left;
 	color:black;
-	font-weight:bold;	
+		
 }
 
 h4 {								/* Sharad mainaly */
 	font-family: Arial, Helvetica, sans-serif;
 	background-color:white;
-	font-size: 15px;
+	font-size: 20px;
 	color:black;
+	float:left;
 	margin: 10px;
 	padding: 10px;
 	text-align: center;
+	font-weight:bold;
 }
 
 
