@@ -175,7 +175,11 @@ li a:hover {					/*Rebecca Sherwin*/
 	font-family: Arial;
 	text-align: left;
 	color:black;
-}
+	font-wright:bold;			/*Rebecca Sherwin*/	
+	
+	
+} 
+
 
 .tablink {				/* Craig Harding*/
   background-color: #555;
