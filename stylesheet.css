@@ -21,7 +21,7 @@
 } 
 /* Text floating on the left size of image */
 .tryagain {
-    width: 50%;
+    width: 100%;
     height: 300px;
     float: left;
     border: inset;
