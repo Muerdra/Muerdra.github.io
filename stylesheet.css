@@ -76,14 +76,13 @@ img{								/* Rebecca Sherwin/ Sharad Mainaly */
 	float:left;
 }
 .island{							/*Sharad Mainaly*/	
-	list-style-type: none;
-	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
 	padding: 10px;
-	background-color:#D6D1CF; 
-	font-family: Arial;
+	background-color:white;
 	text-align: left;
+	float:left;
 	color:black;
-	font-weighht:bold;	
+	font-weight:bold;	
 }
 .navbar {						/*Rebecca Sherwin*/	
 	list-style-type: none;
