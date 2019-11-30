@@ -21,7 +21,8 @@
 /* Source: https://css-tricks.com/text-blocks-over-image/ */
 .firstimage { 							/*Sharad Mainaly */
    position: relative; 
-   width: 100%; /* for IE 6 */
+   max-width: 100%;
+   height: auto;
 }
 
 h2 { 								/*Sharad Mainaly */
@@ -39,7 +40,7 @@ h2 span {
    padding: 10px; 
 }
 h2 span.spacer {
-   padding:0 5px;
+   padding:5px, 5px;
 }
 
 	
