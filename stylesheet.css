@@ -74,6 +74,7 @@ img{
 	padding:0px;
 	float:left;
 	shape-outside: inset(5px round 100px) border-box;
+	shape-outside: circle(25% 25%);
 	
 }
 .navbar {						/*Rebecca Sherwin*/	
