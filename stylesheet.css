@@ -8,6 +8,10 @@
 /* Just Added ...still on progress */           		  /* Sharad Mainaly */
 
 /*This is my main header */
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
 
 #myheader {							/* Sharad Mainaly */
 
