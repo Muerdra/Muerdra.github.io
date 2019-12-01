@@ -283,8 +283,7 @@ li a:hover {					/*Rebecca Sherwin*/
 	margin:50px 0;
 	border: 1px solid gray;
   	border-radius: 30px;
-	padding-right: 0px;
-    	width: 338px;
+	
 }
 
 #contact h3 {				/*Rebecca Sherwin*/
@@ -316,6 +315,8 @@ fieldset {				/*Rebecca Sherwin*/
 	background:#FFF;
 	margin:0 0 5px;
 	padding:10px;
+	padding-right: 0px;
+    	width: 338px;
 }
 
 #contact textarea {			/*Rebecca Sherwin*/
