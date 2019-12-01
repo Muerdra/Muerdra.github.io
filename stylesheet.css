@@ -248,17 +248,17 @@ li a:hover {					/*Rebecca Sherwin*/
 /*#Testing {background-color:pink;}*/
 
 
-.imgshrink{
+.imgshrink{			/*Rebecca Sherwin*/
 	max-width: 50%;
 	max-height: 50%;
 }
 
-.socialmedia{
+.socialmedia{			/*Rebecca Sherwin*/
 	 font-family:Arial;
 	font-weight:200;
 }	
 
-contactback{
+.contactback{			/*Rebecca Sherwin*/
 	background-image: linear-gradient(white 0%, #5c3fff 100%);
 }
 .container {					/*https://codepen.io/ssbalakumar/pen/uzDIA used as a template*/
