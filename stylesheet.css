@@ -286,7 +286,7 @@ li a:hover {					/*Rebecca Sherwin*/
 }
 
 #contact h3 {				/*Rebecca Sherwin*/
-	color: black;
+	color: #e26cff;
 	display: block;
 	font-size: 30px;
 	font-weight: 400;
@@ -305,6 +305,8 @@ fieldset {				/*Rebecca Sherwin*/
 	min-width: 100%;
 	padding: 0;
 	width: 100%;
+	padding-right: 0px;
+    	width: 338px;
 }
 
 #contact input[type="text"], #contact input[type="email"], #contact textarea {		/*Rebecca Sherwin*/
