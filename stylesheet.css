@@ -1,7 +1,5 @@
 @charset "UTF-8";
-.imgshrink{
-	height: auto;
-	
+
 /*priyanka*/	
 }
 
@@ -250,8 +248,19 @@ li a:hover {					/*Rebecca Sherwin*/
 /*#Testing {background-color:pink;}*/
 
 
+.imgshrink{
+	max-width: 50%;
+	max-height: 50%;
+}
 
-							
+.socialmedia{
+	 font-family:Arial;
+	font-weight:200;
+}	
+
+contactback{
+	background-image: linear-gradient(white 0%, #5c3fff 100%);
+}
 .container {					/*https://codepen.io/ssbalakumar/pen/uzDIA used as a template*/
 	 font-family:Tahoma;			/*Rebecca Sherwin*/
 	font-weight:300;
