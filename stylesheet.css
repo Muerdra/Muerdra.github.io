@@ -228,7 +228,7 @@ li a:hover {					/*Rebecca Sherwin*/
   color: white;
   /* display: none; */
   display: fadeIn();
-  position: relative;
+  position: fixed;
   padding: 50px;
   text-align: center;
   bottom: 0%;
