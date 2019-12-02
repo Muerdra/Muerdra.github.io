@@ -237,9 +237,10 @@ li a:hover {					/*Rebecca Sherwin*/
 }
 
 .responsive {
-    max-width: 50%;
-    max-height: auto;
-    display: block;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 /* Style for each tab background colour content individually */ /* Craig Harding*/
 
