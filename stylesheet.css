@@ -228,9 +228,12 @@ li a:hover {					/*Rebecca Sherwin*/
   color: white;
 	/* display: none; */
   display: fadeIn();
+  position: absolute;
   padding: 50px;
   text-align: center;
-  bottom: 0px;
+  bottom: 0%;
+  top: 18.5%
+	 
 }
 					/*Priyanka*/
 .responsive {
