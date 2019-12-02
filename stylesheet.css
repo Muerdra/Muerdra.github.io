@@ -237,7 +237,7 @@ li a:hover {					/*Rebecca Sherwin*/
 }
 
 .responsive {
-    max-width: 2%;
+    max-width: 50%;
     max-height: auto;
     display: block;
 }
