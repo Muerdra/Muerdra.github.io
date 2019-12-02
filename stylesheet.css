@@ -226,19 +226,17 @@ li a:hover {					/*Rebecca Sherwin*/
 /* Set default styles for tab content */	/* Craig Harding*/
 .tabcontent {
   color: white;
-	/* display: none; */
+  /* display: none; */
   display: fadeIn();
-  position: absolute;
+  position: relative;
   padding: 50px;
   text-align: center;
   bottom: 0%;
-  top: 18.5%;
-  right: 0%;
-  left: 0%;
+  top: 30px;
 	 
 }
-					/*Priyanka*/
-.responsive {
+/* Responsive image element */ 	/*Priyanka*/	
+.responsive {        
   display: block;
   margin-left: auto;
   margin-right: auto;
