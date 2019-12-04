@@ -230,7 +230,8 @@ li a:hover {					/*Rebecca Sherwin*/
   /* display: none; */
   display: fadeIn();
   padding: 10px; /*was 50*/
-  text-align: left; /*centre*/
+  justify-content: center;
+  text-align: center; /*centre*/
 	 
 }
 /* Responsive image element */ 	/*Priyanka*/	
