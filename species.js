@@ -1,11 +1,11 @@
 //Opens the defaultOpen tab on pageload
-*/Craig*/
+//Craig
 //https://forums.asp.net/t/2113496.aspx?how+do+I+make+a+tab+to+open+by+default+on+clicking+the+div
 window.onload = function () {
   startTab();
 };
 
-*/Craig*/
+//Craig
 function openAnimal(aniName, elmnt, color) {
   // Hide all elements with class="tabcontent" by default */
   var i, tabcontent, tablinks;
@@ -14,7 +14,7 @@ function openAnimal(aniName, elmnt, color) {
     tabcontent[i].style.display = "none";
   }
 
-*/Craig*/
+//Craig
   // Remove the background color of all tablinks/buttons
   tablinks = document.getElementsByClassName("tablink");
   for (i = 0; i < tablinks.length; i++) {
