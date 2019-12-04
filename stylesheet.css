@@ -216,11 +216,22 @@ li a:hover {					/*Rebecca Sherwin*/
   /*padding: none;*/
   font-size: 18px;
   width: 25%;
+/*testing*/
+  opacity: 0;
+  visibility: hidden;
+  padding: 10px;
+  background-color: rgba(92, 91, 87, 0.9);
+  -webkit-transition: opacity 600ms, visibility 600ms;
+  transition: opacity 600ms, visibility 600ms;
 }
+
 
 /* Change background color of buttons on hover */	/* Craig Harding*/
 .tablink:hover {
   background-color: #777;
+/*testing*/
+  visibility: visible;
+  opacity: 1;
 }
 
 /* Set default styles for tab content */	/* Craig Harding*/
