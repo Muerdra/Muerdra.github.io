@@ -8,12 +8,14 @@
 
 #myheader {							/* Sharad Mainaly */
 
-  background-color: orange;
+  background-color: #bbd7f5;
   color: black;
   padding: 10px;
   text-align: center;
-  border-style:inset;
   margin-top:0px;
+  margin-bottom: 0px;
+  font-family: sans-serif;
+
 }
 /* Source: https://css-tricks.com/text-blocks-over-image/ */
 
@@ -262,9 +264,6 @@ li a:hover {					/*Rebecca Sherwin*/
 	width: 50%;
 }
 	
-.contactback{			/*Rebecca Sherwin*/
-	background-image: linear-gradient(white 0%, #5c3fff 100%);
-}
 .container {					/*https://codepen.io/ssbalakumar/pen/uzDIA used as a template*/
 	 font-family:Tahoma;			/*Rebecca Sherwin*/
 	font-weight:300;
