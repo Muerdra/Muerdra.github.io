@@ -207,7 +207,7 @@ li a:hover {					/*Rebecca Sherwin*/
 
 .tablink {				/* Craig Harding*/
   background-color: #555;
-  color: white;
+  color: auto;
   float: left;
   border: 2px;
   outline: none;
@@ -226,13 +226,13 @@ li a:hover {					/*Rebecca Sherwin*/
 
 /* Set default styles for tab content */	/* Craig Harding*/
 .tabcontent {
-  color: white;
+  color: auto;
   /* display: none; */
   display: fadeIn();
   padding: 10px; /*was 50*/
   justify-content: left; /*centre*/
   text-align: center; /*centre*/
-  height: 75%;
+  height: 100%;
 	 
 }
 /* Responsive image element */ 	/*Priyanka*/	
