@@ -370,8 +370,9 @@ fieldset {				/*Rebecca Sherwin*/
 
 #parani1, #parani2, #parani3{
 	width: 800px;
-	text-align: center;
+	text-align: justify;
 	border: none;
+	margin-left: 400px;
 	
 	}
 	
