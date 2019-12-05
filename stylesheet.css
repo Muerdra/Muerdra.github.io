@@ -230,8 +230,9 @@ li a:hover {					/*Rebecca Sherwin*/
   /* display: none; */
   display: fadeIn();
   padding: 10px; /*was 50*/
-  justify-content: center;
+  justify-content: left; /*centre*/
   text-align: center; /*centre*/
+  height: 75%;
 	 
 }
 /* Responsive image element */ 	/*Priyanka*/	
@@ -241,6 +242,7 @@ li a:hover {					/*Rebecca Sherwin*/
   margin-right: auto;
   width: 50%;
 }
+
 /* Default Style for each tab background colour content individually */ /* Craig Harding*/
 
 #Animal1 {background-color:#36a899;}
