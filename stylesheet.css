@@ -260,11 +260,6 @@ li a:hover {					/*Rebecca Sherwin*/
 	 font-family:Arial;
 	font-weight:200;
 }	
-
-.imgshrink{				/*Rebecca Sherwin*/
-	display: block;
-	width: 50%;
-}
 	
 .container {					/*https://codepen.io/ssbalakumar/pen/uzDIA used as a template*/
 	 font-family:Tahoma;			/*Rebecca Sherwin*/
@@ -330,7 +325,7 @@ fieldset {				/*Rebecca Sherwin*/
 	margin:0 0 5px;
 	padding:10px;
 	padding-right: 0px;
-    	width: 338px;
+	padding-left:0px;
 }
 
 #contact textarea {			/*Rebecca Sherwin*/
