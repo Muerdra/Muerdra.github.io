@@ -367,9 +367,12 @@ fieldset {				/*Rebecca Sherwin*/
 	
 #parani1{
 	margin: 5px,20px;
-	test-align: justify;
+	text-align: justify;
 	}
-	
+#parani2{
+	margin: 5px, 20px;
+	text-align: justify;
+	}
 	
 	
 	
