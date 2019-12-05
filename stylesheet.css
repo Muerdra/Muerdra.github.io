@@ -16,6 +16,7 @@
   margin-bottom: 0px;
   font-family: sans-serif;
 
+
 }
 /* Source: https://css-tricks.com/text-blocks-over-image/ */
 
@@ -208,7 +209,7 @@ li a:hover {					/*Rebecca Sherwin*/
 
 
 .tablink {				/* Craig Harding*/
-  background-color: #555;
+  background-color: #c5c5c5;
   color: auto;
   float: left;
   border: 2px;
