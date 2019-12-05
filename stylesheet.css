@@ -255,6 +255,11 @@ li a:hover {					/*Rebecca Sherwin*/
 	font-weight:200;
 }	
 
+.imgshrink{
+	display: block;
+	width: 50%;
+}
+	
 .contactback{			/*Rebecca Sherwin*/
 	background-image: linear-gradient(white 0%, #5c3fff 100%);
 }
