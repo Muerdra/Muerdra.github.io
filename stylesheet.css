@@ -226,7 +226,7 @@ li a:hover {					/*Rebecca Sherwin*/
 
 /* Set default styles for tab content */	/* Craig Harding*/
 .tabcontent {
-  color: auto;
+  /*color: auto;*/
   /* display: none; */
   display: fadeIn();
   padding: 10px; /*was 50*/
@@ -245,7 +245,7 @@ li a:hover {					/*Rebecca Sherwin*/
 
 /* Default Style for each tab background colour content individually */ /* Craig Harding*/
 
-/*#Animal1 {background-color:#36a899;}*/
+#Animal1 {background-color:#36a899;}
 #Animal2 {background-color:green;}
 #Animal3 {background-color:blue;}
 #Animal4 {background-color:orange;}
