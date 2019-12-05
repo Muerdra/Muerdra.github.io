@@ -369,8 +369,10 @@ fieldset {				/*Rebecca Sherwin*/
 /* This is formating text of paragraph for all four id */		/* Sharad Mainaly */
 
 #parani1, #parani2, #parani3{
-	margin: 10px, 100px;
+	width: 200px;
 	text-align: justify;
+	border: none;
+	
 	}
 	
 	
