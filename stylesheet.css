@@ -43,8 +43,8 @@ h2 span{
    font: bold 32px/50px Helvetica, Sans-Serif; 
    line-height:1.9;
    letter-spacing: 1px;  
-   background: rgb(0, 0, 0); /* fallback color */
-   background: rgba(0, 0, 0, 0.7);
+   background: red;
+  color: white;
    padding: 10px;
    margin-left:1px;
  
