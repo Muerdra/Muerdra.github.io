@@ -254,7 +254,12 @@ li a:hover {					/*Rebecca Sherwin, navigation bar fomatting at 1200px*/
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+						/* Adding border on all the images */
+  height:600px;					/* Border added  ---- Sharad Mainaly */
+  Weidth:600px;
+   padding:1px;
+   border:1px solid #021a40;
+   background-color:#ff0;
 }
 
 /* Default Style for each tab background colour content individually */ /* Craig Harding*/
@@ -371,48 +376,14 @@ fieldset {				/*Rebecca Sherwin, formatting for contact box*/
 }
 	
 
-/* This is formating text of paragraph for all four id */		/* Sharad Mainaly */
+/* This is formating text of paragraph for on every pages below imgaes.  */		/* Sharad Mainaly */
 
 .parani{
 	width: 800px;
 	text-align: justify;
 	border: none;
 	margin-left: 320px;
-	
-	}
-#parani5, #parani6, #parani7, #parani8{
-	width: 800px;
-	text-align: justify;
-	border: none;
-	margin-left: 320px;
 }
-	
-#parani9, #parani10, #parani11, #parani2{
-	width: 800px;
-	text-align: justify;
-	border: none;
-	margin-left: 320px;
-}	
-#parani13, #parani14, #parani15, #parani16{
-	width: 800px;
-	text-align: justify;
-	border: none;
-	margin-left: 320px;
-}	
-#parani7, #parani18, #parani19, #parani20{
-	width: 800px;
-	text-align: justify;
-	border: none;
-	margin-left: 320px;
-}	
-	
-	
-#parani21, #parani22, #parani23, #parani24{
-	width: 800px;
-	text-align: justify;
-	border: none;
-	margin-left: 350px;
-}	
 	
 		
 	
