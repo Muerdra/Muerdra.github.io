@@ -24,6 +24,8 @@
 
 .image1 { 							/*Sharad Mainaly */
    position: relative; 
+   left: 30px; 
+   top: 70px; 
    width: 1150px;
    height: 500px;
    display:block;
