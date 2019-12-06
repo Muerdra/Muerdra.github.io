@@ -40,7 +40,6 @@ h2 { 								/*Sharad Mainaly */
    text-orientation: upright;
 }
 h2 span{ 
-   position:relative;
    color: white; 
    font: bold 32px/50px Helvetica, Sans-Serif; 
    line-height:1.9;
@@ -374,21 +373,21 @@ fieldset {				/*Rebecca Sherwin*/
 	width: 800px;
 	text-align: justify;
 	border: none;
-	margin-left: 370px;
+	margin-left: 320px;
 	
 	}
 #parani5, #parani6, #parani7, #parani8{
 	width: 800px;
 	text-align: justify;
 	border: none;
-	margin-left: 370px;
+	margin-left: 320px;
 }
 	
 #parani9, #parani10, #parani11, #parani2{
 	width: 800px;
 	text-align: justify;
 	border: none;
-	margin-left: 370px;
+	margin-left: 320px;
 }	
 	
 	
