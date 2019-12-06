@@ -373,7 +373,7 @@ fieldset {				/*Rebecca Sherwin, formatting for contact box*/
 
 /* This is formating text of paragraph for all four id */		/* Sharad Mainaly */
 
-#parani{
+.parani{
 	width: 800px;
 	text-align: justify;
 	border: none;
