@@ -52,7 +52,7 @@ h2 span{
 /* Source: https://3.7designs.co/blog/2008/06/10-examples-of-beautiful-css-typography-and-how-they-did-it/ */
 /* Text floating on the left size of image */  			/*Sharad Mainaly */
 .tryagain {
-     font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+     font-family: 'Times New Roman', Aerial,serif, Helvetica;
      font-weight: normal;
      font-size: 1.95em;
      letter-spacing: .2em;
@@ -65,7 +65,7 @@ h2 span{
 /* Source: https://alistapart.com/article/css-shapes-101/ */
 /*This is my heading 2 */					/* Sharad Mainaly */
 .tryagain2 {
-	font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+	font-family:  'Times New Roman', Aerial,serif, Helvetica;
     	width: 50%;
     	height: 300px;
     	float: right;
@@ -102,7 +102,7 @@ h3 {								/* Sharad mainaly */
 }
 
 .environment{						/*Rebecca Sherwin, formatting for environment header*/
-	font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+	font-family:  'Times New Roman', Aerial,serif, Helvetica;
 	background-color:white;
 	text-align: left;
 	float:left;
@@ -128,7 +128,7 @@ h4 {								/* Sharad mainaly */
 	
 }
 #island{
-	font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+	font-family:  'Times New Roman', Aerial,serif, Helvetica;
 	float:left;
 	width:40%;
 	text-align:justify;
