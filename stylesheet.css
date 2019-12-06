@@ -177,7 +177,7 @@ li a:hover {					/*Rebecca Sherwin, navigation bar fomatting*/
 
 @media screen and (min-width: 1200px) { /*https://itnext.io/how-to-build-a-responsive-navbar-using-flexbox-and-javascript-eb0af24f19bf used as reference*/
 
-.navbar {						/*Rebecca Sherwin, navigation bar fomatting at 1200px*/	
+ul{						/*Rebecca Sherwin, navigation bar fomatting at 1200px*/	
 	list-style-type: none;
 	display: flex;
 	justify-content:space-between;
