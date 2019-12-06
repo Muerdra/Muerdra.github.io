@@ -33,12 +33,12 @@
 /* Source: https://css-tricks.com/text-blocks-over-image/ */
 
 h2 { 								/*Sharad Mainaly */
-  position: relative;
-	width: 500px; 
+  position: absolute;
+   width: 500px; 
    top: 200px; 
    margin-left: 5px; 
    width: 50%; 
-	float:left;
+	
 }
 h2 span{ 
    
