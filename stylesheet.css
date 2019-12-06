@@ -238,6 +238,7 @@ Source of Template: https://www.w3schools.com/howto/howto_js_tab_header.asp*/
 /* Set default styles for tab content */	/* Craig Harding*/
 .tabcontent {
   display: none;
+  color: black;
   padding: 10px; 
   justify-content: left; 
   text-align: center; 
