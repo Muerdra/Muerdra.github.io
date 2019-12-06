@@ -28,18 +28,17 @@
    height: 500px;
    display:block;
    margin-left: Auto;
-   float:right;
 }
 /* Source: https://css-tricks.com/text-blocks-over-image/ */
 
 h2 { 								/*Sharad Mainaly */
-   position: relative; 
    width: 500px; 
    top: 200px; 
    margin-left: 5px; 
    width: 50%; 
 }
 h2 span{ 
+   position: relative;
    color: white; 
    font: bold 32px/50px Helvetica, Sans-Serif; 
    line-height:1.9;
