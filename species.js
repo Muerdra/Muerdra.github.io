@@ -1,6 +1,7 @@
-//Opens the defaultOpen tab on pageload
+//
 //Craig
-//https://forums.asp.net/t/2113496.aspx?how+do+I+make+a+tab+to+open+by+default+on+clicking+the+div
+//Opens the defaultOpen tab on pageload(Animal1)
+//Used as reference: https://forums.asp.net/t/2113496.aspx?how+do+I+make+a+tab+to+open+by+default+on+clicking+the+div
 window.onload = function () {
   startTab();
 };
@@ -34,37 +35,3 @@ function openAnimal(aniName, elmnt, color) {
                 document.getElementById("defaultOpen").click();
 
 }
-
-//Testing for tabs
-  $('#tabs li a').click(function(){
-  var t = $(this).attr('id');
-
-  if($(this).hasClass('inactive')){ //this is the start of our condition 
-    $('#tabs li a').addClass('inactive');           
-    $(this).removeClass('inactive');
-
-    $('.container').hide();
-    $('#'+ t + 'C').fadeIn('slow');
- }
-});
-
-
-//TESTING
-function indexbutton2() {
-  			var x = document.createElement("IMG");
- 			  x.setAttribute("src", "Pictures/maptest.jpg");
-  			x.setAttribute("width", "304");
-  			x.setAttribute("height", "228");
-  			x.setAttribute("alt", "	SHOW ME PIC");
-  			document.body.appendChild(x);
-		}
-
-//Makes buttons toggled
-//https://css-tricks.com/snippets/javascript/showhide-element/
-function toggle_visibility(id) {
-       var e = document.getElementById(id);
-       if(e.style.display == 'block')
-          e.style.display = 'none';
-       else
-          e.style.display = 'block';
-    }
