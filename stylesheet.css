@@ -256,7 +256,7 @@ li a:hover {					/*Rebecca Sherwin, navigation bar fomatting at 1200px*/
   margin-right: auto;
 						/* Adding border on all the images */
   height:600px;					/* Border added  ---- Sharad Mainaly */
-  Width:600px;
+  Width:800px;
    padding:1px;
    border:1px solid #021a40;
    background-color:#008000;
@@ -382,7 +382,7 @@ fieldset {				/*Rebecca Sherwin, formatting for contact box*/
 	width: 800px;
 	text-align: justify;
 	border: none;
-	margin-left: 360px;
+	margin-left: 520px;
 }
 	
 		
