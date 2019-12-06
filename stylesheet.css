@@ -28,6 +28,7 @@
    height: 500px;
    display:block;
    margin-left: Auto;
+	float:right;
 }
 /* Source: https://css-tricks.com/text-blocks-over-image/ */
 
@@ -36,6 +37,7 @@ h2 { 								/*Sharad Mainaly */
    top: 200px; 
    margin-left: 5px; 
    width: 50%; 
+	float:left;
 }
 h2 span{ 
    position: relative;
