@@ -32,7 +32,7 @@
 /* Source: https://css-tricks.com/text-blocks-over-image/ */
 
 h2 { 								/*Sharad Mainaly */
-   position: relative; 
+   position: absolute; 
    width: 500px; 
    top: 200px; 
    margin-left: 5px; 
