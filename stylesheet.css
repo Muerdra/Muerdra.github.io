@@ -70,12 +70,12 @@ h2 span{
     	height: 300px;
     	float: right;
 	border: none;
-	padding: 5px, 10px,20px;
+	padding: 5px 10px 20px;
 	margin:10px;
 	background-color: white;
 	color: black;
 	text-align:justify;
-	shape-outside: inset(5px round 100px) border-box;
+	/*shape-outside: inset(5px round 100px) border-box;*/
 	font-size:20px;
 
 	
