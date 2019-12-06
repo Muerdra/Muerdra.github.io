@@ -37,8 +37,6 @@ h2 { 								/*Sharad Mainaly */
    top: 200px; 
    margin-left: 5px; 
    width: 50%; 
-shape-outside: inset(5px round 100px) border-box;
-	padding: -500px;
 }
 h2 span{ 
    color: white; 
