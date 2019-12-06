@@ -336,7 +336,7 @@ fieldset {				/*Rebecca Sherwin*/
 #contact textarea {			/*Rebecca Sherwin*/
 	height:100px;
 	max-width:100%;
-  resize:none;
+        resize:none;
 }
 
 #contact button[type="reset"] {			/*Rebecca Sherwin*/
@@ -372,21 +372,21 @@ fieldset {				/*Rebecca Sherwin*/
 	width: 800px;
 	text-align: justify;
 	border: none;
-	margin-left: 400px;
+	margin-left: 370px;
 	
 	}
 #parani5, #parani6, #parani7, #parani8{
 	width: 800px;
 	text-align: justify;
 	border: none;
-	margin-left: 400px;
+	margin-left: 370px;
 }
 	
 #parani9, #parani10, #parani11, #parani2{
 	width: 800px;
 	text-align: justify;
 	border: none;
-	margin-left: 400px;
+	margin-left: 370px;
 }	
 	
 	
