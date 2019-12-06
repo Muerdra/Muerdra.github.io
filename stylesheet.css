@@ -383,6 +383,8 @@ fieldset {				/*Rebecca Sherwin, formatting for contact box*/
 	text-align: justify;
 	border: none;
 	margin-left: 540px;
+	border-width:2px;  
+        border-style:outset;
 }
 	
 		
