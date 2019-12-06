@@ -28,6 +28,7 @@
    height: 500px;
    display:block;
    margin-left: Auto;
+	float:right;
 
 }
 /* Source: https://css-tricks.com/text-blocks-over-image/ */
