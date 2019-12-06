@@ -213,8 +213,9 @@ li a:hover {					/*Rebecca Sherwin, navigation bar fomatting at 1200px*/
 }
 
 
-
-.tablink {				/* Craig Harding*/
+/* Tabs, Craig Harding
+Source of Template: https://www.w3schools.com/howto/howto_js_tab_header.asp*/
+.tablink {				
   background-color: #c5c5c5;
   color: auto;
   float: left;
@@ -228,24 +229,22 @@ li a:hover {					/*Rebecca Sherwin, navigation bar fomatting at 1200px*/
 }
 
 
-/* Change background color of buttons on hover */	/* Craig Harding*/
+/* Changes background color of buttons on hover */	/* Craig Harding*/
 .tablink:hover {
   background-color: #777;
 }
 
 /* Set default styles for tab content */	/* Craig Harding*/
 .tabcontent {
-  /*color: auto;*/
-  /* display: none; */
   display: none();
-  padding: 10px; /*was 50*/
-  justify-content: left; /*centre*/
-  text-align: center; /*centre*/
+  padding: 10px; 
+  justify-content: left; 
+  text-align: center; 
   height: 100%;
   font-family: arial;
 	 
 }
-@media screen and (min-width: 1200px) { /*testing for tabs*/
+@media screen and (min-width: 1200px) { 
 	
 	
 	
