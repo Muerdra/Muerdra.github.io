@@ -19,7 +19,7 @@ function openAnimal(aniName, elmnt, color) {
   for (i = 0; i < tablinks.length; i++) {
     tablinks[i].style.backgroundColor = "";
   }
-  /* Show the specific tab content*/
+  /* Shows the specific tab content*/
   document.getElementById(aniName).style.display = "block";
 
   /* Add the specific color to the button used to open the tab content*/
