@@ -3,7 +3,7 @@
 //Used as reference/template: https://forums.asp.net/t/2113496.aspx?how+do+I+make+a+tab+to+open+by+default+on+clicking+the+div */
 window.onload = function () {
   startTab();
-}
+};
 
 /*Used as Template https://www.w3schools.com/howto/howto_js_tab_header.asp-->
 //Tab section Craig Harding */
