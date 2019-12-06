@@ -23,7 +23,7 @@
   
 
 .image1 { 						/*Sharad Mainaly */
-   position: absolute;	
+   position: relative;	
    width: 600px;
    height: 500px;
    display:block;
