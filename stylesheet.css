@@ -37,7 +37,7 @@ h2 { 								/*Sharad Mainaly */
    top: 200px; 
    margin-left: 5px; 
    width: 50%; 
-   text-orientation: upright;
+shape-outside: inset(5px round 100px) border-box;
 	
 }
 h2 span{ 
