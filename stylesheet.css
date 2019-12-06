@@ -92,7 +92,7 @@ h3 {								/* Sharad mainaly */
 }
 
 /* My image */
-.image2 {								/* Rebecca Sherwin/ Sharad Mainaly */
+.image2 {				/* Rebecca Sherwin, formatting for second image on index/ Sharad Mainaly */
 	width:400px;
 	height:300px;
 	margin-right: 10px;
@@ -100,7 +100,7 @@ h3 {								/* Sharad mainaly */
 	
 }
 
-.environment{						/*Rebecca Sherwin*/
+.environment{						/*Rebecca Sherwin, formatting for environment header*/
 	font-family: Arial, Helvetica, sans-serif;
 	background-color:white;
 	text-align: left;
@@ -135,7 +135,7 @@ h4 {								/* Sharad mainaly */
 }
 
 .navbar {		/*https://itnext.io/how-to-build-a-responsive-navbar-using-flexbox-and-javascript-eb0af24f19bf used as reference*/					
-	list-style-type: none;		/*Rebecca Sherwin*/
+	list-style-type: none;		/*Rebecca Sherwin, navigation bar fomatting*/
 	margin: 0;
 	padding: 0;
 	overflow:hidden;
@@ -146,14 +146,14 @@ h4 {								/* Sharad mainaly */
 	font-weight: bold;
 }
 
-li {						/*Rebecca Sherwin*/	
+li {						/*Rebecca Sherwin, navigation bar fomatting*/	
 	text-align: center;
 	color:black;
 	position: relative;
 
 }
 
-li a {						/*Rebecca Sherwin*/	
+li a {						/*Rebecca Sherwin, navigation bar fomatting*/	
 	display:block;
 	color:black;
 	text-align: center;
@@ -162,21 +162,21 @@ li a {						/*Rebecca Sherwin*/
 }
 
 
-li a:hover {					/*Rebecca Sherwin*/	
+li a:hover {					/*Rebecca Sherwin, navigation bar fomatting*/	
 	background-color:#C4E2F6;  
 	color:black;
 	font-weight:900;
 }
 
 
-.active{					/*Rebecca Sherwin*/	
+.active{					/*Rebecca Sherwin, navigation bar fomatting*/	
 	background-color:#999;
 	color: #E8E8E8;
 }
 
 @media screen and (min-width: 1200px) { /*https://itnext.io/how-to-build-a-responsive-navbar-using-flexbox-and-javascript-eb0af24f19bf used as reference*/
 
-.navbar {						/*Rebecca Sherwin*/	
+.navbar {						/*Rebecca Sherwin, navigation bar fomatting at 1200px*/	
 	list-style-type: none;
 	display: flex;
 	justify-content:space-between;
@@ -191,13 +191,13 @@ li a:hover {					/*Rebecca Sherwin*/
 }
 
 
-li {						/*Rebecca Sherwin*/	
+li {						/*Rebecca Sherwin, navigation bar fomatting at 1200px*/	
 	text-align: center;
 	color:black;
 	position: relative;
 }
 
-li a {						/*Rebecca Sherwin*/	
+li a {						/*Rebecca Sherwin, navigation bar fomatting at 1200px*/	
 	display:block;
 	color:black;
 	text-align: center;
@@ -205,7 +205,7 @@ li a {						/*Rebecca Sherwin*/
 }
 
 
-li a:hover {					/*Rebecca Sherwin*/	
+li a:hover {					/*Rebecca Sherwin, navigation bar fomatting at 1200px*/	
 	background-color:#C4E2F6;  
 	color:#911F07;
 	font-weight:900;
@@ -266,13 +266,13 @@ li a:hover {					/*Rebecca Sherwin*/
 
 }
 
-.socialmedia{			/*Rebecca Sherwin*/
+.socialmedia{			/*Rebecca Sherwin, formatting for social media image*/
 	 font-family:Arial;
 	font-weight:200;
 }	
 	
 .container {					/*https://codepen.io/ssbalakumar/pen/uzDIA used as a template*/
-	 font-family:Tahoma;			/*Rebecca Sherwin*/
+	 font-family:Tahoma;			/*Rebecca Sherwin, formatting for contact box*/
 	font-weight:300;
 	font-size: 12px;
 	line-height:30px;
@@ -287,7 +287,7 @@ li a:hover {					/*Rebecca Sherwin*/
 	position:relative;
 }
 
-#contact input[type="text"],			/*Rebecca Sherwin*/
+#contact input[type="text"],			/*Rebecca Sherwin, formatting for contact box*/
 #contact input[type="email"],
 #contact input[type="tel"],
 #contact input[type="url"],
@@ -296,7 +296,7 @@ li a:hover {					/*Rebecca Sherwin*/
 	font-family:Tahoma; 
 }
 
-#contact {				/*Rebecca Sherwin*/
+#contact {				/*Rebecca Sherwin, formatting for contact box*/
 	background:#c7dff5;
 	padding:25px;
 	margin:50px 0;
@@ -305,7 +305,7 @@ li a:hover {					/*Rebecca Sherwin*/
 	
 }
 
-#contact h3 {				/*Rebecca Sherwin*/
+#contact h3 {				/*Rebecca Sherwin, formatting for contact box*/
 	color: #e26cff;
 	display: block;
 	font-size: 30px;
@@ -313,13 +313,13 @@ li a:hover {					/*Rebecca Sherwin*/
 	font-family: Tahoma;
 }
 
-#contact h4 {				/*Rebecca Sherwin*/
+#contact h4 {				/*Rebecca Sherwin, formatting for contact box*/
 	margin:5px 0 15px;
 	display:block;
 	font-size:13px;
 }
 
-fieldset {				/*Rebecca Sherwin*/
+fieldset {				/*Rebecca Sherwin, formatting for contact box*/
 	border: medium none !important;
 	margin: 0 0 10px;
 	min-width: 100%;
@@ -328,7 +328,7 @@ fieldset {				/*Rebecca Sherwin*/
 	
 }
 
-#contact input[type="text"], #contact input[type="email"], #contact textarea {		/*Rebecca Sherwin*/
+#contact input[type="text"], #contact input[type="email"], #contact textarea {	/*Rebecca Sherwin, formatting for contact box*/
 	width:100%;
 	border:1px solid #CCC;
 	background:#FFF;
@@ -338,13 +338,13 @@ fieldset {				/*Rebecca Sherwin*/
 	padding-left:0px;
 }
 
-#contact textarea {			/*Rebecca Sherwin*/
+#contact textarea {			/*Rebecca Sherwin, formatting for contact box*/
 	height:100px;
 	max-width:100%;
         resize:none;
 }
 
-#contact button[type="reset"] {			/*Rebecca Sherwin*/
+#contact button[type="reset"] {			/*Rebecca Sherwin, formatting for contact box*/
 	cursor:pointer;
 	width:100%;
 	border:none;
@@ -355,7 +355,7 @@ fieldset {				/*Rebecca Sherwin*/
 	font-size:15px;
 }
 
-#contact button[type="reset"]:hover {			/*Rebecca Sherwin*/
+#contact button[type="reset"]:hover {			/*Rebecca Sherwin, formatting for contact box*/
 	background:#09C;
 	-webkit-transition:background 0.3s ease-in-out;
 	-moz-transition:background 0.3s ease-in-out;
@@ -363,9 +363,9 @@ fieldset {				/*Rebecca Sherwin*/
 	color: white;
 }
 
-#contact button[type="reset"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }		/*Rebecca Sherwin*/
+#contact button[type="reset"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }	/*Rebecca Sherwin, formatting for contact box*/
 
-#contact input:focus, #contact textarea:focus {		/*Rebecca Sherwin*/
+#contact input:focus, #contact textarea:focus {		/*Rebecca Sherwin, formatting for contact box*/
 	outline:0;
 	border:1px solid #999;
 }
