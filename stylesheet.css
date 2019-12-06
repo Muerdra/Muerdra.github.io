@@ -41,8 +41,6 @@ shape-outside: inset(5px round 100px) border-box;
 	
 }
 h2 span{ 
-	position: relative;
-	float:left;
    color: white; 
    font: bold 32px/50px Helvetica, Sans-Serif; 
    line-height:1.9;
