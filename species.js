@@ -14,7 +14,7 @@ function openAnimal(aniName, elmnt, color) {
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
   }
-  /* Remove the background color of all tablinks/buttons*/
+  /* Remove the background color of all tablinks/buttons so no overlap when clicking between tabs*/
   tablinks = document.getElementsByClassName("tablink");
   for (i = 0; i < tablinks.length; i++) {
     tablinks[i].style.backgroundColor = "";
