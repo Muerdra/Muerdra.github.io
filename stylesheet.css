@@ -37,7 +37,8 @@ h2 { 								/*Sharad Mainaly */
    top: 200px; 
    margin-left: 5px; 
    width: 50%; 
- text-align:left;
+   writing-mode: vertical-rl;
+   text-orientation: upright;
 }
 h2 span{ 
    position:relative;
