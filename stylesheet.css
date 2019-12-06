@@ -218,7 +218,6 @@ li a:hover {					/*Rebecca Sherwin, navigation bar fomatting at 1200px*/
 Source of Template: https://www.w3schools.com/howto/howto_js_tab_header.asp*/
 .tablink {				
   background-color: #c5c5c5;
-  color: auto;
   float: left;
   border: 2px;
   outline: none;
@@ -237,7 +236,7 @@ Source of Template: https://www.w3schools.com/howto/howto_js_tab_header.asp*/
 
 /* Set default styles for tab content */	/* Craig Harding*/
 .tabcontent {
-  display: none();
+  display: none;
   padding: 10px; 
   justify-content: left; 
   text-align: center; 
