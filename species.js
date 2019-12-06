@@ -8,7 +8,6 @@ window.onload = function () {
 
 //Used as Template https://www.w3schools.com/howto/howto_js_tab_header.asp-->
 //Tab section Craig Harding -->
-
 function openAnimal(aniName, elmnt, color) {
   // Hide all elements with class="tabcontent" by default */
   var i, tabcontent, tablinks;
