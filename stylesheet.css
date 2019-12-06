@@ -32,15 +32,17 @@
 /* Source: https://css-tricks.com/text-blocks-over-image/ */
 
 h2 { 								/*Sharad Mainaly */
-  position: relative;
+  
    width: 500px; 
    top: 200px; 
    margin-left: 5px; 
    width: 50%; 
    text-orientation: upright;
-	float:left;
+	
 }
 h2 span{ 
+	position: relative;
+	float:left;
    color: white; 
    font: bold 32px/50px Helvetica, Sans-Serif; 
    line-height:1.9;
