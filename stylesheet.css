@@ -15,8 +15,6 @@
   margin-top:0px;
   margin-bottom: 0px;
   font-family: sans-serif;
-
-
 }
 /* Source: https://css-tricks.com/text-blocks-over-image/ */
 
@@ -42,7 +40,7 @@ h2 { 								/*Sharad Mainaly */
  text-align:left;
 }
 h2 span{ 
-   
+   position:relative;
    color: white; 
    font: bold 32px/50px Helvetica, Sans-Serif; 
    line-height:1.9;
