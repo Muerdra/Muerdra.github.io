@@ -121,7 +121,7 @@
 		padding: 4px;
 		border: 0;
 		overflow: hidden;
-		text-align: left;
+		text-align: right;
 		background-color: #03adfc;
 		position: fixed;
 		top: 0;
@@ -129,13 +129,13 @@
 	}
 
 	li {
-		float: center;
+		float: right;
 	}
 
 	li a {
 		display: block;
 		color: white;
-		text-align: right;
+		text-align: center;
 		padding: 10px 14px;
 		text-decoration: none;
 }
