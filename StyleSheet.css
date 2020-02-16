@@ -42,8 +42,13 @@
 	  color: black;
 	  font-weight: bold;
 	  padding-bottom: 5px;
-	  padding-top:1px;
+	  padding: 2px;
     }
+
+p
+{
+	padding: 2px;
+}
 	
     /*Creates an invisible block for the navbar*/
 	.rowlogmenu
