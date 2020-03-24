@@ -2,9 +2,9 @@
 <html>
 <head>
 <meta charset="utf-8" />
-<title>My Teacher is the Greatest</title>
+<title>Geom99: Add ArcGIS Map Service source - Projected Fix</title>
 <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
-<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=vvMMhglnRWY-gjrZFQQk2oPCIMfYnAcI8uQQyk1AMXOM9xFsfKlc1E-LOO_e9bUuIKrS389ZdeOJf7tfiDNnvRTtgvHYXw41Z--PW2xn-NM" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9zaGF3bm1mbGVtaW5nYy5naXRodWIuaW8vbWFwYm94ZGVtby5odG1s"/><script src="https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js"></script>
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=llh922UmzfARdAHrOWrYWwy0GO7x6-5_1w0P7OpjJLkgbm1tiIGqAvEPSy_SVxBEiKsHs_REn1rvsAdGZKYY-A9kp33RDduEQszh9jVyPeY" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9zaGF3bm1mbGVtaW5nYy5naXRodWIuaW8vbWFwYm94YWdzcHJvamVjdGlvbi5odG1s"/><script src="https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js"></script>
 <link href="https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css" rel="stylesheet" />
 <style>
 	body { margin: 0; padding: 0; }
@@ -17,19 +17,20 @@
 	// Modified example from this source: https://docs.mapbox.com/mapbox-gl-js/example/wms/
 	// Be sure to insert your OWN mapbox token.
 	mapboxgl.accessToken = 'pk.eyJ1IjoiY3JhaGFyZGkiLCJhIjoiY2s3ZG1ydDF4MjFqajNscDlvM3U3eHNueSJ9.z5uuElSRxEPzrh5ORgBETg';
-   
-   var map = new mapboxgl.Map({
+    var map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/mapbox/light-v10',
         zoom: 3,
         center: [-100.0, 50.0]
     });
-
+   // NOTE: The {bbox-epsg-3857} is replaced with the actual display bounding box by MapBox on runtime https://mapbox.github.io/mapbox-gl-native/macos/0.5.0/tile-url-templates.html
+   // The map service ArcGIS Server export request is modified to display as web mercator (102100). 
+   // I used F12 network tab and modifed a request from an ArcGIS Online WebMap to form this.
     map.on('load', function() {
         map.addSource('wms-test-source', {
             'type': 'raster',
             'tiles': [
-                'https://luna.flemingcollege.ca/arcgis/rest/services/Geom99/crahardiCanadaPro/MapServer/export?bbox={bbox-epsg-3857}&bboxSR=EPSG%3A3857&layers=0&layerDefs=&size=256%2c256&imageSR=&format=png&transparent=true&dpi=&time=&layerTimeOptions=&dynamicLayers=&gdbVersion=&mapScale=&f=image'
+                'https://luna.flemingcollege.ca/arcgis/rest/services/Geom99/crahardiCanadaPro/MapServer/export?bbox={bbox-epsg-3857}&bboxSR=102100&layers=show%3A0&layerDefs=&size=256%2C256&imageSR=102100&historicMoment=&format=png32&transparent=true&dpi=96&time=&layerTimeOptions=&dynamicLayers=&gdbVersion=&mapScale=&rotation=&datumTransformations=&layerParameterValues=&mapRangeValues=&layerRangeValues=&f=image'
             ],
             'tileSize': 256
         });
@@ -47,3 +48,4 @@
 
 </body>
 </html>
+
